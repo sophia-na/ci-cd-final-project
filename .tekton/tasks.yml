@@ -18,7 +18,7 @@ spec:
         runAsNonRoot: false
         runAsUser: 0
       script: |
-  #!/usr/bin/env sh
+         #!/usr/bin/env sh
           set -eu
           echo "Removing all files from ${WORKSPACE_SOURCE_PATH} ..."
           # Delete any existing contents of the directory if it exists.
